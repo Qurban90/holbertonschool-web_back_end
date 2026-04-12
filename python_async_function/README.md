@@ -1,14 +1,12 @@
-# Python - Async
+# Python - Async Comprehension
 
-This project introduces asynchronous programming in Python using `asyncio`. Async programming allows tasks to run concurrently without blocking the main thread, making it ideal for I/O-bound operations such as network requests, file operations, and database queries.
+This project explores asynchronous generators and comprehensions in Python. Async comprehensions allow you to build lists, sets, and dictionaries from async iterables in a clean, readable way, while async generators let you produce values asynchronously over time.
 
 ## Learning Objectives
 
-- `async` and `await` syntax
-- How to execute an async program with `asyncio`
-- How to run concurrent coroutines
-- How to create asyncio tasks
-- How to use the `random` module
+- How to write an asynchronous generator
+- How to use async comprehensions
+- How to type-annotate generators
 
 ## Requirements
 
@@ -24,7 +22,7 @@ This project introduces asynchronous programming in Python using `asyncio`. Asyn
 
 | File | Description |
 |------|-------------|
-| `0-basic_async_syntax.py` | Async coroutine `wait_random` that waits for a random delay between 0 and `max_delay` seconds |
+| `0-async_generator.py` | Async generator coroutine that yields 10 random floats between 0 and 10 |
 
 ## Usage
 
